@@ -1,0 +1,4 @@
+Controls
+up : accelrate
+left/right : turn left right
+space : shoot
