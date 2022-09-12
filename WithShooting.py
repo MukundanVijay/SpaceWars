@@ -5,15 +5,15 @@ window = pyglet.window.Window(width = 1000,height = 750)
 
 label = pyglet.text.Label("Mukundan:Lilith",x = 0,y = window.height,anchor_x = 'left',anchor_y = 'top')
 
-star_img = pyglet.image.load('star.png')
+star_img = pyglet.image.load('images/star.png')
 star_img.anchor_x = star_img.width//2
 star_img.anchor_y = star_img.height//2
 
-ship_img = pyglet.image.load('shippe.png')
+ship_img = pyglet.image.load('images/shippe.png')
 ship_img.anchor_x = ship_img.width//2
 ship_img.anchor_y = ship_img.height//2
 
-missile_img = pyglet.image.load('missile2.png')
+missile_img = pyglet.image.load('images/missile2.png')
 missile_img.anchor_x = missile_img.width//2
 missile_img.anchor_y = missile_img.height//2 
 
